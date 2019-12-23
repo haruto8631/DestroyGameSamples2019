@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Common.hpp"
+#include <Siv3D.hpp>
 
 
 #define DEFAULT_PLAYER_SIZE 20
@@ -37,7 +37,7 @@ public:
 
 
 	// 更新
-	void update() 
+	void update()
 	{
 		// Wキーで上に移動
 		if (KeyW.pressed())
@@ -135,7 +135,7 @@ public:
 	}
 
 
-	
+
 	/// <summary> 
 	/// 自機のHPを変更する
 	/// </summary>

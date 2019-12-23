@@ -105,7 +105,6 @@ public:
 			{
 				player.hit(enemyBullet[i].hitBullet());
 				hpBar.changeHP(player.getHP());
-				break; // 無敵時間に入るので以降の処理はスキップ
 			}
 		}
 

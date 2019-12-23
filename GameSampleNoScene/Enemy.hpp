@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Common.hpp"
+#include <Siv3D.hpp>
 
 
 #define DEFAULT_ENEMY_SIZE 15
