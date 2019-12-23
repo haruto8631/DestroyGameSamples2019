@@ -6,7 +6,6 @@
 #include "HPBar.hpp"
 #include "Bullet.hpp"
 
-
 #define PLAYER_BULLET_LIMIT 5
 #define ENEMY_LIMIT 10
 #define ENEMY_BULLET_LIMIT 40
@@ -45,7 +44,6 @@ public:
 				enemy.push_back(Enemy(Vec2(Random() * field.w + field.x, field.y), Vec2(RandomInt8() % 2, 2), 20));
 			}
 		}
-
 
 		for (int i = 0; i < enemy.size(); i++)
 		{
@@ -87,7 +85,7 @@ public:
 
 			for (int j = 0; j < enemy.size(); j++)
 			{
-				// ƒvƒŒƒCƒ„[‚Ì’e‚Æ“G‚Ì“–‚½‚è”»’è‚ÍÚG‚µ‚½Žž
+				// ƒvƒŒƒCƒ„[‚Ì’e‚Æ“G‚Ì“–‚½‚è”»’è‚ªÚG‚µ‚½Žž
 				if (playerBullet[i].getCollision().intersects(enemy[j].getCollision()))
 				{
 					enemy[j].hit(playerBullet[i].hitBullet());
