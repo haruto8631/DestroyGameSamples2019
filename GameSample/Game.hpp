@@ -41,7 +41,7 @@ public:
 		{
 			if (RandomBool(0.05))
 			{
-				enemy.push_back(Enemy(Vec2(Random() * field.w + field.x, field.y), Vec2(RandomInt8() % 2, 2), 20));
+				enemy.push_back(Enemy(Vec2(Random<int32>(field.x, field.x + field.w), field.y), Vec2(RandomInt8() % 2, 2), 20));
 			}
 		}
 
@@ -89,6 +89,7 @@ public:
 				if (playerBullet[i].getCollision().intersects(enemy[j].getCollision()))
 				{
 					enemy[j].hit(playerBullet[i].hitBullet());
+					enemy.erase(enemy.begin() + j);
 					getData().score += 100;
 				}
 			}

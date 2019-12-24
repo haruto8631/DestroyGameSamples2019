@@ -131,7 +131,7 @@ void Main()
 		// 敵の数が上限に達していない時
 		if (RandomBool(0.1) && enemy.size() < enemyLimit)
 		{
-			enemy.push_back(Circle(Vec2(Random() * field.w + field.x, field.y), 10)); // 敵を適当な位置に生成
+			enemy.push_back(Circle(Vec2(Random<int32>(field.x, field.x + field.w), field.y), 10)); // 敵を適当な位置に生成
 			enemyDirection.push_back(Vec2(RandomInt8() % 2, enemySpeed)); // 生成した敵に対して動く方向を決める
 		}
 

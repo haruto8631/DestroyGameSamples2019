@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameSample", "GameSample\Ga
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameSampleNoScene", "GameSampleNoScene\GameSampleNoScene.vcxproj", "{603EF36E-EE57-4DAB-8241-662D03A9C78C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InitialP", "InitialP\InitialP.vcxproj", "{EBE3BBE3-492F-46E4-B750-4C1165544654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{603EF36E-EE57-4DAB-8241-662D03A9C78C}.Debug|x64.Build.0 = Debug|x64
 		{603EF36E-EE57-4DAB-8241-662D03A9C78C}.Release|x64.ActiveCfg = Release|x64
 		{603EF36E-EE57-4DAB-8241-662D03A9C78C}.Release|x64.Build.0 = Release|x64
+		{EBE3BBE3-492F-46E4-B750-4C1165544654}.Debug|x64.ActiveCfg = Debug|x64
+		{EBE3BBE3-492F-46E4-B750-4C1165544654}.Debug|x64.Build.0 = Debug|x64
+		{EBE3BBE3-492F-46E4-B750-4C1165544654}.Release|x64.ActiveCfg = Release|x64
+		{EBE3BBE3-492F-46E4-B750-4C1165544654}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
