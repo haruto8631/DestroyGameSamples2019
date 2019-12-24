@@ -1,17 +1,18 @@
-﻿
-#include "Common.hpp"
+﻿#include "Title.hpp"
+#include "Select.hpp"
+#include "Game.hpp"
+#include "Result.hpp"
+
+
 
 
 void Main()
 {
-	// 背景を水色にする
-	Scene::SetBackground(ColorF(0.8, 0.9, 1.0));
-
 	// タイトルを設定
-	Window::SetTitle(U"破壊ゲームさんぷる");
+	Window::SetTitle(U"頭文字P Perfect Shift");
 
 	// 背景色を設定
-	Scene::SetBackground(Color(0, 0, 0));
+	Scene::SetBackground(Color(180, 200, 240));
 
 	// 使用するフォントアセットを登録
 	FontAsset::Register(U"Title", 60, U"example/font/NotoSansCJKjp/NotoSansCJKjp-Regular.otf");

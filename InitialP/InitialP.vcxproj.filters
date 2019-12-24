@@ -388,5 +388,8 @@
     <ClInclude Include="PanjandrumBase.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TheGreatPanjandrum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

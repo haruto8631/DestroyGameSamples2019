@@ -238,6 +238,7 @@
     <ClInclude Include="PanjandrumBase.hpp" />
     <ClInclude Include="Result.hpp" />
     <ClInclude Include="Select.hpp" />
+    <ClInclude Include="TheGreatPanjandrum.hpp" />
     <ClInclude Include="Title.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
