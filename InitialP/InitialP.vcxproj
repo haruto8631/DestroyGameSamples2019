@@ -235,6 +235,7 @@
   <ItemGroup>
     <ClInclude Include="Common.hpp" />
     <ClInclude Include="Game.hpp" />
+    <ClInclude Include="ModLoader.hpp" />
     <ClInclude Include="PanjandrumBase.hpp" />
     <ClInclude Include="Result.hpp" />
     <ClInclude Include="Select.hpp" />

@@ -15,8 +15,11 @@ void Main()
 	Scene::SetBackground(Color(180, 200, 240));
 
 	// 使用するフォントアセットを登録
-	FontAsset::Register(U"Title", 60, U"example/font/NotoSansCJKjp/NotoSansCJKjp-Regular.otf");
+	FontAsset::Register(U"Title", 70, Typeface::Heavy);
+	FontAsset::Register(U"TitleAnnyant", 60, U"example/font/AnnyantRoman/AnnyantRoman.ttf");
 	FontAsset::Register(U"Score", 30, Typeface::Regular);
+
+	TextureAsset::Register(U"Logo", Resource(U"texture/Logo.png"));
 
 
 	// シーンと遷移時の色を設定

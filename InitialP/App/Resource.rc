@@ -57,6 +57,7 @@ Resource(engine/soundfont/GMGSx.sf2.zstdcmp)
 //
 //////////////////////////////////////////////////////
 
+Resource(texture/Logo.png)
 
 
 /* 

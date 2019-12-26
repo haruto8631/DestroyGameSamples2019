@@ -97,6 +97,9 @@
     <Filter Include="Header Files\Scene">
       <UniqueIdentifier>{5435b4e2-b19f-4d91-a441-8fbbb819ce74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Panjan">
+      <UniqueIdentifier>{04adf016-aedb-469a-aa41-922708806fa9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -386,9 +389,12 @@
       <Filter>Header Files\Scene</Filter>
     </ClInclude>
     <ClInclude Include="PanjandrumBase.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Panjan</Filter>
     </ClInclude>
     <ClInclude Include="TheGreatPanjandrum.hpp">
+      <Filter>Header Files\Panjan</Filter>
+    </ClInclude>
+    <ClInclude Include="ModLoader.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
