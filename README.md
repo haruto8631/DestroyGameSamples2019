@@ -22,3 +22,4 @@ GameSampleをSceneManager無しで作ったものです
 
 ## Initial P
 英国面に堕ちました。
+もうしばらくかかります。
