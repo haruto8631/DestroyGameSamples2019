@@ -1,21 +1,16 @@
 #pragma once
 
-#include "Common.hpp"
-
-
+// インターフェース
 class PanjandrumBase
 {
 public:
-	PanjandrumBase(Vec2 pos, int speed) : speed(speed, 0)
+	PanjandrumBase()
 	{
 
 	}
 
-	virtual void spawn() = 0;
-	virtual void rotates() = 0;
+	virtual void spawn(Texture wheel, Texture base, Vec2 spawnPos) = 0;
+	virtual void rotates(Vec2 position) = 0;
 	virtual void suicideBomb() = 0;
-
-private:
-	Vec2 centerPosition;
-	Vec2 speed;
+	virtual void draw() const = 0;
 };

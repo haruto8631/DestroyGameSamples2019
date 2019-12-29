@@ -1,0 +1,16 @@
+{
+    "mods": [
+        {
+            "name": "test1",
+            "base": "Mods/test1/base.png",
+            "wheel": "Mods/test1/wheel.png",
+            "displayImage": "Mods/test1/display.jpg"
+        },
+        {
+            "name": "test2",
+            "base": "Mods/test2/base.png",
+            "wheel": "Mods/test2/wheel.png",
+            "displayImage": "Mods/test2/display.jpg"
+        }
+    ]
+}

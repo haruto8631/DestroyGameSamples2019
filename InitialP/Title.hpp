@@ -11,6 +11,7 @@ public:
 	{
 		Scene::SetBackground(Color(0, 0, 0));
 		centerPos = Scene::Center();
+		TextureAsset::Register(U"Logo", Resource(U"texture/Logo.png"));
 	}
 
 

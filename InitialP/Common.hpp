@@ -14,6 +14,8 @@ struct GameData
 {
 	int score;
 	int panjanNum;
+	String playerPanjnaName;
+	Array<String> panjanDictionary;
 };
 
 

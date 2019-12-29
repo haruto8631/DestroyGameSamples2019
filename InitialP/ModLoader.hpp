@@ -11,8 +11,9 @@ public:
 	{
 	}
 
-	Array<String> loadPanjan(const JSONValue& json)
+	static Array<String> loadPanjan(const JSONValue& json)
 	{
+		Array<String> nameDic;
 		for (const auto& object : json.objectView())
 		{
 			switch (object.value.getType())
@@ -24,6 +25,7 @@ public:
 				throw "Explosion Panjan1";
 				break;
 			case JSONValueType::Array:
+
 				for (const auto& element : object.value.arrayView())
 				{
 					nameDic.push_back(registerPanjan(element));
@@ -34,12 +36,14 @@ public:
 				break;
 			}
 		}
+
+		return nameDic;
 	}
 
 
-	String registerPanjan(const JSONValue json)
+	static String registerPanjan(const JSONValue& json)
 	{
-		String panjanName, wheelPath, basePath;
+		String panjanName, wheelPath, basePath, displayImagePath;
 
 		for (const auto& object : json.objectView())
 		{
@@ -53,16 +57,18 @@ public:
 			}
 			else if (object.name == U"base")
 			{
-				basePath = object.value.getString;
+				basePath = object.value.getString();
+			}
+			else if (object.name == U"displayImage")
+			{
+				displayImagePath = object.value.getString();
 			}
 		}
 
 		TextureAsset::Register(panjanName + U"_w", wheelPath);
 		TextureAsset::Register(panjanName + U"_b", basePath);
+		TextureAsset::Register(panjanName + U"_d", displayImagePath);
 		return panjanName;
 	}
 
-
-private:
-	Array<String> nameDic;
 };

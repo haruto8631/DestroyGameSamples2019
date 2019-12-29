@@ -58,7 +58,20 @@ Resource(engine/soundfont/GMGSx.sf2.zstdcmp)
 //////////////////////////////////////////////////////
 
 Resource(texture/Logo.png)
-
+Resource(texture/TheGreatPanjandrum.jpg)
+Resource(texture/TheGreatPanjandrumBase.png)
+Resource(texture/TheGreatPanjandrumWheel.png)
+Resource(texture/TachometerBase.png)
+Resource(texture/MeterNeedle.png)
+Resource(texture/PerfectShiftRight.png)
+Resource(texture/PerfectShiftLeft.png)
+Resource(texture/GoodShiftRight.png)
+Resource(texture/GoodShiftLeft.png)
+Resource(texture/BadShiftRight.png)
+Resource(texture/BadShiftLeft.png)
+Resource(texture/backgroundImage1.png)
+Resource(texture/backgroundImage1Start.png)
+Resource(texture/backgroundImage1Goal.png)
 
 /* 
 	//

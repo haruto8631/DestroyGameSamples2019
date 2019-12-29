@@ -391,11 +391,11 @@
     <ClInclude Include="PanjandrumBase.hpp">
       <Filter>Header Files\Panjan</Filter>
     </ClInclude>
-    <ClInclude Include="TheGreatPanjandrum.hpp">
-      <Filter>Header Files\Panjan</Filter>
-    </ClInclude>
     <ClInclude Include="ModLoader.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicPanjandrum.hpp">
+      <Filter>Header Files\Panjan</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
