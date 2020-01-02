@@ -397,5 +397,11 @@
     <ClInclude Include="BasicPanjandrum.hpp">
       <Filter>Header Files\Panjan</Filter>
     </ClInclude>
+    <ClInclude Include="Course.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransmissionSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

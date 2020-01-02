@@ -14,14 +14,15 @@ public:
 
 	void spawn(Texture wheel, Texture base, Vec2 spawnPos)
 	{
-		this->wheel = wheel.resized(200, 200);
-		this->base = base.resized(200, 200);
+		this->wheel = wheel.resized(150, 150);
+		this->base = base.resized(150, 150);
 		position = spawnPos;
 	}
 
 
 	void rotates(Vec2 position)
 	{
+		this->position = position;
 	}
 
 
@@ -37,7 +38,7 @@ public:
 	}
 
 
-	void setRotateSpeed(int speed)
+	void setRotationSpeed(int speed)
 	{
 		rotateSpeed = speed;
 	}

@@ -8,13 +8,23 @@ enum class State
 	Title, Select, Game, Result
 };
 
+enum class Side
+{
+	Center, Left, Right
+};
+
+enum class ShiftJudge
+{
+	Perfect, Good, Bad
+};
+
 
 // ゲームデータ
 struct GameData
 {
 	int score;
 	int panjanNum;
-	String playerPanjnaName;
+	String playerPanjanName;
 	Array<String> panjanDictionary;
 };
 
