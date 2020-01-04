@@ -30,6 +30,7 @@ public:
 	{
 		if (isDead)
 		{
+
 		}
 		else
 		{
@@ -41,7 +42,7 @@ public:
 
 	void suicideBomb()
 	{
-		
+
 	}
 
 

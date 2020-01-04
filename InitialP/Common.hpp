@@ -27,9 +27,9 @@ enum class driveOpe
 // ゲームデータ
 struct GameData
 {
-	int score;
 	int panjanNum;
 	String playerPanjanName;
+	String record;
 	Array<String> panjanDictionary;
 };
 

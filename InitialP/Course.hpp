@@ -3,7 +3,7 @@
 #include  "Common.hpp"
 
 
-#define LINE_WIDTH 200
+#define LINE_WIDTH 300
 
 
 class Course

@@ -117,7 +117,6 @@ private:
 				speed += 0.01;
 				break;
 			case ShiftJudge::Good:
-				speed += 0.001;
 				break;
 			case ShiftJudge::Bad:
 				speed -= 0.005;

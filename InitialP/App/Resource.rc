@@ -72,6 +72,7 @@ Resource(texture/BadShiftLeft.png)
 Resource(texture/backgroundImage1.png)
 Resource(texture/backgroundImage1Start.png)
 Resource(texture/backgroundImage1Goal.png)
+Resource(texture/explosion.gif)
 
 /* 
 	//
