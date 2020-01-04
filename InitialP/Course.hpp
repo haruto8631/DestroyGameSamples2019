@@ -46,9 +46,10 @@ public :
 	/// <param name="percent"> 0~1.0‚ÌŠÔ‚Å‘‚­ </param>
 	void updateProgress(double percent)
 	{
-		if (percent < 0)
+		if (percent <= 0)
 		{
-			percent = 0;
+			currentPos = coursePath[0];
+			return;
 		}
 		else if (percent > 1)
 		{

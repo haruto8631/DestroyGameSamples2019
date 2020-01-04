@@ -18,6 +18,11 @@ enum class ShiftJudge
 	Perfect, Good, Bad
 };
 
+enum class driveOpe
+{
+	stepAccel, releaseAccel, stepBrakes, releaseBrakes
+};
+
 
 // ゲームデータ
 struct GameData

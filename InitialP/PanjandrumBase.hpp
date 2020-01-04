@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Common.hpp"
+
 // インターフェース
 class PanjandrumBase
 {
@@ -13,4 +15,6 @@ public:
 	virtual void rotates(Vec2 position) = 0;
 	virtual void suicideBomb() = 0;
 	virtual void draw() const = 0;
+private:
+	
 };

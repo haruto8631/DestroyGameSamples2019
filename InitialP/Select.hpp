@@ -55,7 +55,7 @@ public:
 		if (KeyEnter.down())
 		{
 			getData().panjanDictionary = panjanNames;
-			getData().playerPanjnaName = panjanNames[selectedTileNum];
+			getData().playerPanjanName = panjanNames[selectedTileNum];
 			changeScene(State::Game);
 		}
 	}

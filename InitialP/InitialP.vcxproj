@@ -236,11 +236,13 @@
     <ClInclude Include="Common.hpp" />
     <ClInclude Include="Course.hpp" />
     <ClInclude Include="Game.hpp" />
+    <ClInclude Include="JudgeTexture.hpp" />
     <ClInclude Include="ModLoader.hpp" />
     <ClInclude Include="PanjandrumBase.hpp" />
     <ClInclude Include="Result.hpp" />
     <ClInclude Include="Select.hpp" />
     <ClInclude Include="BasicPanjandrum.hpp" />
+    <ClInclude Include="Tachometer.hpp" />
     <ClInclude Include="Title.hpp" />
     <ClInclude Include="TransmissionSystem.hpp" />
   </ItemGroup>

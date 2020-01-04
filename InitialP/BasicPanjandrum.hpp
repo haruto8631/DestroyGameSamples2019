@@ -8,7 +8,7 @@ class BasicPanjandrum : public PanjandrumBase
 public:
 	BasicPanjandrum() : PanjandrumBase()
 	{
-
+		isDead = false;
 	}
 
 
@@ -28,13 +28,20 @@ public:
 
 	void draw() const
 	{
-		wheel.rotated(Scene::Time() * rotateSpeed).drawAt(position);
+		if (isDead)
+		{
+		}
+		else
+		{
+			wheel.rotated(Scene::Time() * rotateSpeed).drawAt(position);
+		}
+		
 	}
 
 
 	void suicideBomb()
 	{
-
+		
 	}
 
 
@@ -44,11 +51,10 @@ public:
 	}
 
 private:
+	bool isDead;
 	int rotateSpeed;
 
 	TextureRegion wheel;
 	TextureRegion base;
 	Vec2 position;
-	Timer timer;
-
 };

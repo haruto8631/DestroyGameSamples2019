@@ -20,9 +20,8 @@ void Main()
 	FontAsset::Register(U"Score", 30, Typeface::Regular);
 	FontAsset::Register(U"PanjanName", 20, Typeface::Black);
 	FontAsset::Register(U"PanjanInfo", 12, Typeface::Regular);
-
-	
-	
+	FontAsset::Register(U"Time", 20, Typeface::Regular);
+	FontAsset::Register(U"Meter", 20, Typeface::Black);
 
 
 	// シーンと遷移時の色を設定
